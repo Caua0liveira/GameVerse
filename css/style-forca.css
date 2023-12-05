@@ -1,0 +1,186 @@
+body{
+    background-image: url(../Imagens/Fundo\ Forca.png);
+    margin: 0;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+    padding: 10px 20px;
+    background: -o-linear-gradient(to bottom,#ffffff 0%, #ebebeb 50%,#dbdbdb 50%,#b5b5b5);
+
+    border-radius: 10px;
+    border: 1px solid #949494;
+    box-shadow: 0px 1px 3px rgba(000,000,000,0.5),inset 0px 0px 0px rgba(255,255,255,1);
+    text-shadow: 0px 1px 0px rgba(000,000,000,0.2), 0px 1px 0px rgba(255,255,255,1);
+
+}
+button:hover{
+    background: -moz-linear-gradient(to top,#ffffff 0%, #ebebeb 50%,#dbdbdb 50%,#b5b5b5);
+
+}
+button:disabled{
+    background: #b5b2b2;
+    color: #cbcbcb;
+}
+
+#jogo{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+#titulo{
+    text-align: center;
+    margin: 40px auto;
+    font-family: "Berlin Sans FB","Bauhaus 93";
+    font-size: 40px; text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff,0 0 5px #fff,0 0 20px #0600a7, 0 0 35px #0600a7,0 0 40px #0600a7, 0 0 50px #0600a7,0 0 75px #0600a7;
+}
+#tabeladiv{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#forca img{
+    width: 55%;
+    height: 55%;
+    float: right;
+}
+#tema{
+    text-align: center;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB","Bauhaus 93";
+    font-size: 20px; text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff,0 0 5px #fff,0 0 20px #0600a7, 0 0 35px #0600a7,0 0 40px #0600a7, 0 0 50px #0600a7,0 0 75px #0600a7;
+}
+#tentativa{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+#tenta{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+
+}
+input{
+    margin-left: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+}
+#acerto{
+    text-align: left;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB","Bauhaus 93";
+    font-size: 20px; text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff,0 0 5px #fff,0 0 20px #0600a7, 0 0 35px #0600a7,0 0 40px #0600a7, 0 0 50px #0600a7,0 0 75px #0600a7;
+}
+#palcerta{
+    text-align: left;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB","Bauhaus 93";
+    font-size: 20px; text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0 0 5px #0600a7, 0 0 10px #fff;
+}
+#tabAcerto{
+    width: 30%;
+}
+header {
+    background-color: rgb(97, 7, 109);
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-links {
+    display: inline-block;
+    margin-right: 20px;
+      margin-top: 60px;
+   
+  }
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.logo img{
+    max-height: 70px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 70px;
+    
+
+}
+.card-img-top:hover{
+    transform: scale(1.10);
+    transition: all 0.8s;
+    border-radius: 30px;
+    margin: 3 px solid black;
+}
+
+.row{
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+footer {
+  margin-top: 50px;
+  background-color: rgb(97, 7, 109);
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  max-height: 60px; 
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+

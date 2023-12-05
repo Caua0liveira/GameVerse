@@ -1,0 +1,36 @@
+{
+    "jogadores":[
+        {
+            "nome": "Neymar da Silva Santos Júnior",
+            "time": "Al-Hilal Saudi Football Club",
+            "posicao": "Atacante",
+            "imagem": "https://placar.com.br/wp-content/uploads/2022/04/000_328H4L7.jpg"
+        },
+        {
+            "nome": "Lionel Andrés Messi Cuccittini",
+            "time": "Inter Miami CF",
+            "posicao": "Atacante",
+            "imagem": "https://znews-photo.zingcdn.me/Uploaded/wobjcak/2022_12_19/mess.jpg"
+        },
+        {
+            "nome": "Cristiano Ronaldo dos Santos Aveiro",
+            "time": " Al-Nassr Football Club ",
+            "posicao": "Atacante",
+            "imagem": "https://image.stern.de/32937072/t/Y3/v1/w1440/r1.7778/-/22--cristiano-ronaldo-traeumt-von-rueckkehr-zu-real-madrid--so-ist-der-stand-der-dinge--aufmacher-.jpg"
+        },
+        {
+            "nome": "Jude Victor William Bellingham",
+            "time": "Real Madrid Club de Fútbol",
+            "posicao": "Meia",
+            "imagem": "https://www.umdoisesportes.com.br/media/umdoisesportes/2023/10/30181141/Jude-Bellingham.jpg"
+        },
+        {
+            "nome": "Erling Braut Haaland",
+            "time": "Manchester City Football Club",
+            "posicao": "Atacante",
+            "imagem": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt3c0ae54700b5d8d2/641ff2cfe39fc72aa89239af/Erling_Haaland.jpg?auto=webp&format=pjpg&width=3840&quality=60"
+        }
+    ]
+}
+    
+

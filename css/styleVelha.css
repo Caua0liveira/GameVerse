@@ -1,0 +1,167 @@
+body{
+    background-image: url(../Imagens/fundoVelha.jpg);
+    background-size: cover;
+    display: block;
+}
+
+img{
+    width: 200px;
+}
+
+#jogo{
+    width: 603px;
+    height: 603px;
+    border: solid 3px;
+    display: inline-block;
+    float: left;
+    background-color: white;
+}
+
+#resultado{
+    margin-left: 30px;
+    float: left;
+    color: white;
+
+}
+
+#resposta{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+}
+
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+
+.xis{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.bola{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.velha{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+input[type=button], input[type=submit], input[type=reset]{
+    background-color: #3d94f6;
+    background-image: linear-gradient(to bottom, #3D94f6, #1e62d0 );
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337fed 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background: #1e62d0;
+    background-image: linear-gradient(to bottom, #1e62d0, #3d94f6);
+    text-decoration: none;
+}
+header {
+    background-color: rgb(97, 7, 109);
+    color: white;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 90px;
+    text-decoration: none;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+
+.nav-links {
+    display: inline-block;
+    margin-right: 20px;
+      margin-top: 60px;
+   
+  }
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 400px;
+    max-width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 120px;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.10);
+    transition: all 0.8s;
+    border-radius: 30px;
+    margin: 3 px solid black;
+}
+
+.row{
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+footer {
+    margin-top: 50px;
+    background-color: rgb(97, 7, 109);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    max-height: 60px; 
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
